@@ -1,14 +1,19 @@
-¨Ï¥Î¤èªk
+# ARAP_deformation
 
-1.¤Á´«¼Ò¦¡
-s: selection mode(¶i¤Jµ{¦¡®É¹w³])
+As rigid as possible deformation
+demo:https://www.youtube.com/watch?v=N0RNZ7od2s8&feature=youtu.be&ab_channel=%E9%99%B3%E9%8E%AE%E8%8F%AF
+
+ä½¿ç”¨æ–¹æ³•
+
+1.åˆ‡æ›æ¨¡å¼
+s: selection mode(é€²å…¥ç¨‹å¼æ™‚é è¨­)
 d: deformation mode
 
 2. selection mode
-·Æ¹«¥ªÁä: ±ÛÂà¼Ò«¬
-·Æ¹«¥kÁä: »s³yhandle; 
-          "«ö¤U->©ì©Ô->©ñ¶}"³o¤@³s¦ê°Ê§@©Ò©w¸qªºbox¤¤¥]§tªº©Ò¦³3DÂI·|¦¨¬°¤@­Óhandle
+æ»‘é¼ å·¦éµ: æ—‹è½‰æ¨¡åž‹
+æ»‘é¼ å³éµ: è£½é€ handle; 
+          "æŒ‰ä¸‹->æ‹–æ‹‰->æ”¾é–‹"é€™ä¸€é€£ä¸²å‹•ä½œæ‰€å®šç¾©çš„boxä¸­åŒ…å«çš„æ‰€æœ‰3Dé»žæœƒæˆç‚ºä¸€å€‹handle
 
 3. deformation mode
-·Æ¹«¥ªÁä: ±ÛÂà¼Ò«¬
-·Æ¹«¥kÁä: §ÎÅÜ; ³QÅÜ§Îªºhandle¬O³Ì¾aªñ«ö¤U¥kÁä³Bªº¨º¤@­Ó
+æ»‘é¼ å·¦éµ: æ—‹è½‰æ¨¡åž‹
+æ»‘é¼ å³éµ: å½¢è®Š; è¢«è®Šå½¢çš„handleæ˜¯æœ€é è¿‘æŒ‰ä¸‹å³éµè™•çš„é‚£ä¸€å€‹
