@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ARAP_deformer", "ARAP_deformer\ARAP_deformer.vcxproj", "{FA8E2D4B-5161-441C-84F9-1F7F9532E79E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA8E2D4B-5161-441C-84F9-1F7F9532E79E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FA8E2D4B-5161-441C-84F9-1F7F9532E79E}.Debug|Win32.Build.0 = Debug|Win32
+		{FA8E2D4B-5161-441C-84F9-1F7F9532E79E}.Release|Win32.ActiveCfg = Release|Win32
+		{FA8E2D4B-5161-441C-84F9-1F7F9532E79E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
