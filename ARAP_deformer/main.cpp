@@ -340,9 +340,16 @@ vector<double> DeformationIteration()
 	e_p = CalE(mesh);
 
 	vector<Eigen::Vector3f> b_top;
+	vector<Eigen::Matrix3f> R;
 	Eigen::Matrix3f Ri, Rj;
 	Eigen::Vector3f eij, b_temp;
 	
+
+	for (int i = 0; i < mesh->numvertices; ++i)
+	{
+		R.push_back(CalR(i));
+	}
+
 	for (int i = 0; i < mesh->numvertices; ++i)
 	{
 		b_temp = Eigen::Vector3f::Zero();
@@ -352,8 +359,8 @@ vector<double> DeformationIteration()
 								  originMesh->vertices[3 * (i + 1) + 1] - originMesh->vertices[3 * (*iter) + 1],
 								  originMesh->vertices[3 * (i + 1) + 2] - originMesh->vertices[3 * (*iter) + 2]);
 
-			Ri = CalR(i);
-			Rj = CalR(*iter - 1);
+			Ri = R[i];
+			Rj = R[*iter - 1];
 			b_temp += 0.5f * (Ri + Rj) * eij;
 		}
 		b_top.push_back(b_temp);
